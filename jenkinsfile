@@ -26,8 +26,8 @@ pipeline{
         success{
             sh 'echo "build success by aj"'
         }
-        faliure{
-            sh 'echo "build faliure by aj"'
+        failure{
+            sh 'echo "build failure by aj"'
         }
     }
 }
