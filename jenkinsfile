@@ -17,4 +17,17 @@ pipeline{
 
         }
     }
+    
+    post{
+
+        always{
+            sh 'echo "always"'
+        }
+        success{
+            sh 'echo "build success by aj"'
+        }
+        success{
+            sh 'echo "build faliure by aj"'
+        }
+    }
 }
